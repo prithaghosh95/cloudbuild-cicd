@@ -17,7 +17,7 @@ steps:
   args:
    - 'run'
    - 'deploy'
-   - 'demo-flask-app'
+   - 'py-bq-build'
    - '--image'
    - 'gcr.io/silken-realm-437403-i1/demo-flask-app:$COMMIT_SHA'
    - '--region'

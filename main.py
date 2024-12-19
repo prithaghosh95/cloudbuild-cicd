@@ -6,7 +6,7 @@ import os
 app = Flask(__name__)
 client = bigquery.Client()
 
-@app.route('/')
+ @app.route('/')
 def main(big_query_client=client):
     table_id = "silken-realm-437403-i1.mlops_pritha.us_states"
     job_config = bigquery.LoadJobConfig(

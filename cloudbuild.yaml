@@ -19,7 +19,7 @@ steps:
    - 'deploy'
    - 'demo-flask-app'
    - '--image'
-   - 'gcr.io/silken-realm-437403-i1/demo-flask-app'
+   - 'gcr.io/silken-realm-437403-i1/demo-flask-app:$COMMIT_SHA'
    - '--region'
    - 'us-central1'
    - '--allow-unauthenticated'
